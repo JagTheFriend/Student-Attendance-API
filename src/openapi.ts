@@ -5,7 +5,10 @@ export const openApiSpec = {
     version: '1.0.0',
     description: 'API for managing student attendance records with JWT authentication, role-based access, and reporting.',
   },
-  servers: [{ url: 'http://localhost:3000', description: 'Development server' }],
+  servers: [
+    { url: 'https://student-attendance-api-kxi9.onrender.com', description: 'Production server' },
+    { url: 'http://localhost:3000', description: 'Development server' },
+  ],
   components: {
     securitySchemes: {
       BearerAuth: {
