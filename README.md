@@ -4,16 +4,16 @@ A backend API for managing student attendance records built with **TypeScript**,
 
 ## Features
 
-- **JWT Authentication** Register and login with secure token-based auth
-- **Student Management** Full CRUD with search and pagination
-- **Subject Management** Full CRUD with pagination
-- **Attendance Marking** Mark individual or bulk attendance (PRESENT, ABSENT, LATE, EXCUSED)
-- **Attendance Reports** Monthly attendance summaries with per-student breakdown
-- **Absent-Student Filtering** Find all absent students by date and subject
-- **Attendance Percentage** Calculate attendance percentage with filters
-- **CSV Export** Export attendance records as CSV
-- **Role-Based Access** ADMIN and TEACHER roles with protected routes
-- **Swagger Docs** Interactive API documentation at `/docs`
+- **JWT Authentication**: Register and login with secure token-based auth
+- **Student Management**: Full CRUD with search and pagination
+- **Subject Management**: Full CRUD with pagination
+- **Attendance Marking**: Mark individual or bulk attendance (PRESENT, ABSENT, LATE, EXCUSED)
+- **Attendance Reports**: Monthly attendance summaries with per-student breakdown
+- **Absent-Student Filtering**: Find all absent students by date and subject
+- **Attendance Percentage**: Calculate attendance percentage with filters
+- **CSV Export**: Export attendance records as CSV
+- **Role-Based Access**: ADMIN and TEACHER roles with protected routes
+- **Swagger Docs**: Interactive API documentation at `/docs`
 
 ## Tech Stack
 
